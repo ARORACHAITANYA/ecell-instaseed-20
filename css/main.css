@@ -1,32 +1,9 @@
-/*
- @Author: Company Name
- @URL: http://companyname.com
- This file contains the styling for the actual theme, this
- is the file you need to edit to change the look of the
- theme.
- However we used Less script to make things easy to maintain, this is the compressed ourput, we recommend to edit the less files and then recombile the files and add the result here, if you don't like to use less you can edit this file here.
- 
- This files contents are outlined below.
- 01.	Theme Reset Style
- 02.	Global Elements
- 03.	Menu
- 04.	Social
- 05.	Article
- 06.	Posts
- 07.	Responsive
- 08.	Widgets
- 09.	Flexslider
- 10.	Grid
-*/
 
 /* =============================================
 			Theme Reset Style
 ============================================= */
 @import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Open+Sans:300,400);
-* {
-	margin: 0px;
-	padding: 0px;
-}
+
 html,
 body {
 	position: relative;
@@ -83,7 +60,7 @@ a:active{
 }
 ul{margin: 0;}
 figure {
-	margin-bottom: 6px;
+	margin-bottom: 1.5em;
 	position: relative;
 }
 img {
@@ -2421,7 +2398,9 @@ blockquote{
 .tg-brands li:nth-child(7),
 .tg-brands li:nth-child(8){border-left: 1px solid #ddd;}
 .tg-brands li figure{
-	margin: 0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 0;
 	width: 100%;
 	float: left;
 }
